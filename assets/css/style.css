@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "sego";
+  src: url(../font/SEGOEUI.TTF);
+}
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+  font-family: "sego", Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav {
+  display: flex;
+  align-items: center;
+
+  min-height: 2.5rem;
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.42);
+  position: relative;
+  z-index: 1;
+}
+.bold {
+  font-weight: 800;
+}
+#menu {
+  display: none;
+}
+#headerImg {
+  position: relative;
+}
+#headerImg img {
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #fff;
+}
+h1 span:first-child {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+h1 span:last-child {
+  display: none;
+}
+#galery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+#galery figure {
+  width: 100%;
+  position: relative;
+  
+}
+#galery figcaption{
+    position: absolute;
+    color: #fff;
+    background-color: black;
+    padding: .3rem .5rem;
+    font-weight: 500;
+}
+#galery img{
+    width: 100%;
+}
